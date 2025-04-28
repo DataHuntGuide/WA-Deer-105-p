@@ -25,7 +25,7 @@
             <meta name="viewport" content="width=device-width,
                 initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
             <style>
-                #map_5e27f1e8946f3759923656c2f0e9ee1c {
+                #map_350e62dcc85b0cc626762661d476aec1 {
                     position: relative;
                     width: 100.0%;
                     height: 100.0%;
@@ -41,7 +41,7 @@
 <body>
     
     
-            <div class="folium-map" id="map_5e27f1e8946f3759923656c2f0e9ee1c" ></div>
+            <div class="folium-map" id="map_350e62dcc85b0cc626762661d476aec1" ></div>
         
     
             
@@ -60,42 +60,42 @@ Nn+Zz0TxSz65yGZbvETRD01lU6VSAqkY7FOI7YxgXnG8BxqxjVN4HK4fjoAjP0a/CVjA4rbCgljqV
 <script>
     
     
-            var map_5e27f1e8946f3759923656c2f0e9ee1c = L.map(
-                "map_5e27f1e8946f3759923656c2f0e9ee1c",
+            var map_350e62dcc85b0cc626762661d476aec1 = L.map(
+                "map_350e62dcc85b0cc626762661d476aec1",
                 {
-                    center: [48.90246, -117.96699],
+                    center: [48.90303, -117.90596],
                     crs: L.CRS.EPSG3857,
                     zoom: 12,
                     zoomControl: true,
                     preferCanvas: false,
                 }
             );
-            L.control.scale().addTo(map_5e27f1e8946f3759923656c2f0e9ee1c);
+            L.control.scale().addTo(map_350e62dcc85b0cc626762661d476aec1);
 
             
 
         
     
-            var tile_layer_d8bd1a6611727182b9bf2d53f964bf3f = L.tileLayer(
+            var tile_layer_74ab7b87b7b2fea7e1edede18e2392f8 = L.tileLayer(
                 "https://{s}.tile.opentopomap.org/{z}/{x}/{y}.png",
                 {"attribution": "\u0026copy; OpenTopoMap (CC-BY-SA)", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
-            ).addTo(map_5e27f1e8946f3759923656c2f0e9ee1c);
+            ).addTo(map_350e62dcc85b0cc626762661d476aec1);
         
     
-            var heat_map_a53dcfc4a7a78d3cabbbe7fca097e20a = L.heatLayer(
+            var heat_map_3a78dc0730bb232b645d018903e446be = L.heatLayer(
                 [[48.90303, -117.90596], [48.90997, -117.9241], [48.90838, -117.91508], [48.90223, -117.9042], [48.91199, -117.92602], [48.90341, -117.89775], [48.9084, -117.90314], [48.90299, -118.13627], [48.90912, -117.931], [48.891, -117.97974], [48.90246, -117.96699], [48.90246, -117.96699], [48.90955, -117.94516], [48.91645, -117.93897], [48.90246, -117.96699]],
                 {"blur": 15, "maxZoom": 18, "minOpacity": 0.3, "radius": 30}
-            ).addTo(map_5e27f1e8946f3759923656c2f0e9ee1c);
+            ).addTo(map_350e62dcc85b0cc626762661d476aec1);
         
     
-            var mouse_position_42a6866c1032e61bbae7d534ca9cfa94 = new L.Control.MousePosition(
+            var mouse_position_5051d98061c18cc5d90968753718094e = new L.Control.MousePosition(
                 {"emptyString": "Unavailable", "lngFirst": false, "numDigits": 5, "position": "topright", "prefix": "Lat | Lon", "separator": " | "}
             );
-            mouse_position_42a6866c1032e61bbae7d534ca9cfa94.options["latFormatter"] =
+            mouse_position_5051d98061c18cc5d90968753718094e.options["latFormatter"] =
                 function(num) {return L.Util.formatNum(num, 5);};
-            mouse_position_42a6866c1032e61bbae7d534ca9cfa94.options["lngFormatter"] =
+            mouse_position_5051d98061c18cc5d90968753718094e.options["lngFormatter"] =
                 function(num) {return L.Util.formatNum(num, 5);};
-            map_5e27f1e8946f3759923656c2f0e9ee1c.addControl(mouse_position_42a6866c1032e61bbae7d534ca9cfa94);
+            map_350e62dcc85b0cc626762661d476aec1.addControl(mouse_position_5051d98061c18cc5d90968753718094e);
         
 </script>
 </html>
